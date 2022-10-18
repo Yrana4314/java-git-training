@@ -1,1 +1,3 @@
-Ths is just the description file of the Java Training Class.
+This is just the description file of the Java Training Class.It is
+demo of Git learning class.This file is about to change for the 1st time
+after initial push to remote repository.
