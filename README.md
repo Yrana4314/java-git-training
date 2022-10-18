@@ -1,1 +1,1 @@
-# java-git-training
+Git and Github beginner Demo session
