@@ -8,9 +8,14 @@ public class MobilePhone {
     IsSmartPhone
     ScreenSize
     CarrierType
-    chargingSlot
-    hasCharger
+    ChargingSlot
+    price
     BatteryCapacity
+    OsType
+    HAsChargingAdapter
+    HasEarphone
+    Ram
+    StorageCapacity
 
      */
     //Behaviors
