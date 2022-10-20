@@ -7,6 +7,8 @@ public class Cat {
     age
     length
     weight
+    breed
+    gender
      */
     //BEHAVIORS
 }
