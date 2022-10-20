@@ -15,7 +15,7 @@ public class MobilePhone {
     HAsChargingAdapter
     HasEarphone
     Ram
-    StorageCapacity
+    Storage
 
      */
     //Behaviors
