@@ -3,20 +3,29 @@ import java.util.Scanner;
 public class CalculatePercentageOfGrade {
     public static void main(String[] args){
         // Create Scanner object
-        final double TOTAL = 500.0;
         Scanner scan = new Scanner(System.in);
+
+        //total full marks
+        final double TOTAL = 500.0;
+
+        //Ask users to enter full name
         System.out.print("Enter Your Full Name: ");
         String name = scan.nextLine();
 
+        //Ask users to enter grades by separating commas
         System.out.println("Enter grade of Math, English, Science, Social, Nepali subjects");
         String strGrades = scan.nextLine(); //gets grade in comma separated string
-        //convert to string with only grade(exclude commas)
+
+        //convert to string with only grade string data types (exclude commas)
         String []strGrade = strGrades.split(",");
+
         // integer array to  store int grades
         int [] numberGrades = new int[strGrade.length];
+
         //converts string array to numeric array
         convertsToInt(strGrade,numberGrades);
-        // total sum of grades
+
+        // compute total sum of grades
         int totalSum = sumOfGrades(numberGrades);
 
 
